@@ -14,9 +14,17 @@ collections:
     output: true
     permalink: /videos/:name/
 
+include:
+  - _videos
+
 defaults:
   - scope:
       path: ""
       type: posts
+    values:
+      layout: post_with_nav
+  - scope:
+      path: "_videos"
+      type: videos
     values:
       layout: post_with_nav
