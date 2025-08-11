@@ -1,7 +1,7 @@
 ---
 layout: default_with_sidebar
 title: Videos
-permalink: /video/
+permalink: /videos/
 ---
 
 # Videos
