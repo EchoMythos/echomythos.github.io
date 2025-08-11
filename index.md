@@ -45,6 +45,10 @@ title: Echo Mythos
   .page-wrap { padding-left: 1rem; padding-right: 1rem; }
   .em-grid { grid-template-columns: 1fr; column-gap: 0; }
 }
+  .site-title {
+  display: none;
+}
+
 </style>
 
 <div class="page-wrap">
