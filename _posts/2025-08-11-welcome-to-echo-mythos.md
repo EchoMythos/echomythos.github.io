@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Welcome to Echo Mythos"
+title: Echo Mythos Videos
 date: 2025-08-11
 ---
 
