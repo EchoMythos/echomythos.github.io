@@ -1,11 +1,13 @@
 ---
 layout: post
-title: Echo Mythos Videos
-date: 2025-08-11
+title: "Eternal Youth Meditation"
+date: 2025-08-12
+tags: [video]
 ---
 
-This is your first post. Edit this file in `_posts/` and write in Markdown.
+
+T
 
 To embed a YouTube video, paste its iframe here:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/3-LlQDRJ44g?si=4xKCVITZqmscgszU&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
