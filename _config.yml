@@ -1,5 +1,5 @@
 title: Echo Mythos
 description: Unseen Origins, Infinite Reflections
-baseurl: ""
-url: ""
+baseurl: "" # leave empty for root
+url: "https://echomythos.github.io" # your live site address
 theme: minima
