@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Eternal Youth"
-date: 2025-08-12
+date: 2025-08-11
 tags: [video]
 ---
 
