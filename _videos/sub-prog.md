@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Advanced Subliminal Programming"
-date: 2025-08-12
+date: 2025-08-11
 tags: [video]
 ---
 
