@@ -1,0 +1,11 @@
+<aside style="width: 260px; padding: 12px;">
+  <h3 style="margin:0 0 10px;">Videos</h3>
+  <ul style="list-style:none; padding:0; margin:0;">
+    {% assign vids = site.videos | sort: "date" | reverse %}
+    {% for v in vids %}
+      <li style="margin-bottom:8px;">
+        <a href="{{ v.url }}">{{ v.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</aside>
