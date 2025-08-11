@@ -3,3 +3,7 @@ description: Unseen Origins, Infinite Reflections
 baseurl: "" # leave empty for root
 url: "https://echomythos.github.io" # your live site address
 theme: minima
+header_pages:
+  - index.md
+  - videos.md
+
