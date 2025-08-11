@@ -9,6 +9,7 @@ title: Echo Mythos
 </div>
 
 <style>
+/* Tagline styling */
 .tagline {
   text-align: center;
   font-size: 1.25rem;
@@ -20,7 +21,6 @@ title: Echo Mythos
   font-weight: 500;
 }
 
-<style>
 /* Override Minima's narrow wrapper on THIS page */
 .page-content .wrapper { max-width: none; padding: 0; }
 
@@ -46,7 +46,6 @@ title: Echo Mythos
   .em-grid { grid-template-columns: 1fr; column-gap: 0; }
 }
 </style>
-
 
 <div class="page-wrap">
   <div class="em-grid">
@@ -89,4 +88,3 @@ title: Echo Mythos
     </aside>
   </div>
 </div>
-
