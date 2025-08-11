@@ -6,4 +6,6 @@ theme: minima
 header_pages:
   - index.md
   - videos.md
+  - articles.md
+
 
