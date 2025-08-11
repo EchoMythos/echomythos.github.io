@@ -1,12 +1,12 @@
 title: Echo Mythos
 description: Unseen Origins, Infinite Reflections
-baseurl: ""              # leave empty for root
+baseurl: ""
 url: "https://echomythos.github.io"
 theme: minima
 
 header_pages:
   - index.md
-  - video.md            # <-- your page is singular "video.md"
+  - videos.md
   - articles.md
 
 collections:
@@ -15,7 +15,7 @@ collections:
 
 defaults:
   - scope:
-      path: ""          # all files
-      type: posts       # blog posts in _posts
+      path: ""
+      type: posts
     values:
       layout: post_with_nav
