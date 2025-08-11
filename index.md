@@ -23,13 +23,22 @@ Echo Mythos shares cinematic music and visual stories that transcend time and vo
 </style>
 
 <div class="em-wrap">
-  <main class="em-content">
-    <!-- ARTICLE 1 -->
-    <section id="truth-lens" class="em-article">
-      <h2>Truth Is a Lens</h2>
-      <p>Truth is not reality — it’s the story we tell about reality. Opinions harden into beliefs, and beliefs become the lens we look through.</p>
-      <p>Change the lens, and the truth changes.</p>
-    </section>
+ <main class="em-content">
+  <h2>Latest Articles</h2>
+  <div>
+    {% for post in site.posts limit:5 %}
+      <article class="em-article">
+        <h3 style="margin:0;"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+        <div>{{ post.excerpt }}</div>
+        <p><a href="{{ post.url | relative_url }}">Read more →</a></p>
+      </article>
+    {% endfor %}
+    {% if site.posts == empty %}
+      <p>No articles yet — add one in <code>_posts/</code> and it will appear here.</p>
+    {% endif %}
+  </div>
+</main>
+
 
     <!-- ARTICLE 2 -->
     <section id="opinions-beliefs" class="em-article">
