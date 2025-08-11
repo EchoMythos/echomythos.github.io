@@ -47,7 +47,8 @@ title: Echo Mythos
 } /* ← this closes the media query */
 
 /* Hide the big Echo Mythos title above footer */
-.site-title {
+/* Hide the site title that appears in the footer */
+.site-footer .site-title {
   display: none;
 }
 
