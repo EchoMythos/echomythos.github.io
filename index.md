@@ -3,8 +3,22 @@ layout: base
 title: Echo Mythos
 ---
 
-**Unseen Origins, Infinite Reflections.**  
-Echo Mythos shares cinematic music and visual stories that transcend time and voice.
+<div class="tagline">
+  <em>Unseen Origins, Infinite Reflections.</em><br>
+  Echo Mythos shares cinematic music and visual stories that transcend time and voice.
+</div>
+
+<style>
+.tagline {
+  text-align: center;
+  font-size: 1.25rem;
+  margin: 1.5rem auto 2.5rem;
+  line-height: 1.4;
+}
+.tagline em {
+  font-style: italic;
+  font-weight: 500;
+}
 
 <style>
 /* Override Minima's narrow wrapper on THIS page */
