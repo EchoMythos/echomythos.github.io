@@ -7,24 +7,32 @@ title: Echo Mythos
 Echo Mythos shares cinematic music and visual stories that transcend time and voice.
 
 <style>
-/* 3-column grid: left sidebar, main, right sidebar */
+/* Override Minima's narrow wrapper on THIS page */
+.page-content .wrapper { max-width: none; padding: 0; }
+
+/* Outer page margins (exactly ~2cm each side) */
+.page-wrap { padding-left: 2cm; padding-right: 2cm; }
+
+/* 3-column grid: left sidebar, wide main, right sidebar */
 .em-grid {
   display: grid;
-  grid-template-columns: 260px 1fr 260px;
-  gap: 2rem;
+  grid-template-columns: 240px minmax(0, 1fr) 240px; /* sidebars narrow, main wide */
+  column-gap: 2cm;  /* 2cm gap between columns */
+  row-gap: 2rem;
   align-items: start;
 }
-.em-left, .em-right { border-left: 1px solid #e5e5e5; padding-left: 1rem; }
-.em-left { border-left: none; padding-left: 0; }
+
+.em-main { min-width: 0; }           /* prevents overflow */
 .em-main .post-item { margin: 2rem 0; }
 .em-main .post-item h2 { margin: 0 0 .5rem; }
 
-/* Stack on mobile */
-@media (max-width: 900px){
-  .em-grid { grid-template-columns: 1fr; }
-  .em-left, .em-right { border-left: none; padding-left: 0; }
+/* Mobile: stack with comfy padding */
+@media (max-width: 1100px){
+  .page-wrap { padding-left: 1rem; padding-right: 1rem; }
+  .em-grid { grid-template-columns: 1fr; column-gap: 0; }
 }
 </style>
+
 
 <div class="em-grid">
   <!-- LEFT SIDEBAR: Videos -->
