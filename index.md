@@ -44,8 +44,10 @@ title: Echo Mythos
 @media (max-width: 1100px){
   .page-wrap { padding-left: 1rem; padding-right: 1rem; }
   .em-grid { grid-template-columns: 1fr; column-gap: 0; }
-}
-  .site-title {
+} /* ← this closes the media query */
+
+/* Hide the big Echo Mythos title above footer */
+.site-title {
   display: none;
 }
 
