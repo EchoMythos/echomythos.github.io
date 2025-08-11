@@ -1,13 +1,13 @@
 ---
-layout: base
+layout: default_with_sidebar
 title: Videos
-permalink: /videos/
+permalink: /video/
 ---
 
-<h1>Videos</h1>
-
-<!-- Paste your video embed code below -->
-<div class="video-embed">
-  <!-- Example placeholder; replace with your actual embed code -->
-  <p>[Your embedded video will appear here]</p>
-</div>
+# Videos
+<ul>
+  {% assign vids = site.videos | sort: "date" | reverse %}
+  {% for v in vids %}
+    <li><a href="{{ v.url }}">{{ v.title }}</a></li>
+  {% endfor %}
+</ul>
