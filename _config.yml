@@ -8,4 +8,7 @@ header_pages:
   - videos.md
   - articles.md
 
+collections:
+  videos:
+    output: true
 
