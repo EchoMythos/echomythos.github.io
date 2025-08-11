@@ -1,5 +1,5 @@
 ---
-title: "**Truth Is a Lens**"
+title: "Truth Is a Lens"
 ---
 
 ***Opinions, Beliefs, and the Illusion of Perfection***
