@@ -11,4 +11,11 @@ header_pages:
 collections:
   videos:
     output: true
+    defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post_with_nav
+
 
