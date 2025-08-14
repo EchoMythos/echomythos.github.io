@@ -1,9 +1,10 @@
 ---
 title: Videos
 permalink: /videos/
+layout: none
 ---
 
-
+{% include header.html %}
 {% include banner.html %}
 
 # All Videos
