@@ -2,7 +2,7 @@
 title: Articles
 permalink: /articles/
 layout: none
-thumbnail: /assets/images/thumbnails/Truth.png
+thumbnail: /assets/images/Truth.png
 ---
 
 {% include header.html %}
