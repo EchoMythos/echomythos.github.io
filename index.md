@@ -1,71 +1,12 @@
 ---
 layout: base
-title: Echo Mythos
+title: Echo Mythos - Home
 ---
 
 <div class="tagline">
   <em>Unseen Origins, Infinite Reflections.</em><br>
   Echo Mythos shares cinematic music and visual stories that transcend time and voice.
 </div>
-
-<style>
-/* Tagline styling */
-.tagline {
-  text-align: center;
-  font-size: 1.25rem;
-  margin: 1.5rem auto 2.5rem;
-  line-height: 1.4;
-}
-.tagline em {
-  font-style: italic;
-  font-weight: 500;
-}
-
-/* Override wrapper width */
-.page-content .wrapper {
-  max-width: none;
-  padding: 0;
-}
-
-/* Main page grid */
-.page-wrap {
-  padding-left: 2cm;
-  padding-right: 2cm;
-}
-.em-grid {
-  display: grid;
-  grid-template-columns: 240px minmax(0, 1fr) 240px;
-  column-gap: 2cm;
-  row-gap: 2rem;
-  align-items: start;
-}
-.em-main {
-  min-width: 0;
-}
-.em-main .post-item {
-  margin: 2rem 0;
-}
-.em-main .post-item h2 {
-  margin-bottom: 0.5rem;
-}
-
-/* Mobile responsive layout */
-@media (max-width: 1100px) {
-  .page-wrap {
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
-  .em-grid {
-    grid-template-columns: 1fr;
-    column-gap: 0;
-  }
-}
-
-/* Hide site title in footer */
-.site-footer .site-title {
-  display: none;
-}
-</style>
 
 <div class="page-wrap">
   <div class="em-grid">
@@ -112,3 +53,4 @@ title: Echo Mythos
     </aside>
   </div>
 </div>
+
