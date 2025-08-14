@@ -8,8 +8,9 @@
   {% include header.html %}
   {% include banner.html %}
 
-  <main class="page-content" aria-label="Content">
-    <div class="wrapper">
+  <main class="em-grid" style="max-width: 1200px; margin: auto; padding: 2em 1em; display: grid; grid-template-columns: 1fr 2fr 1fr; gap: 2em;">
+    {% include sidebar.html %}
+    <div class="em-main">
       {{ content }}
     </div>
   </main>
