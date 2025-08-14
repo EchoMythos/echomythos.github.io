@@ -23,20 +23,7 @@ title: Echo Mythos
 
 
 
-    <!-- MAIN: Articles -->
-    <main class="em-main">
-      <h2>Latest Articles</h2>
-      {% for post in site.posts %}
-        <article class="post-item">
-          <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
-          <div>{{ post.excerpt }}</div>
-          <p><a href="{{ post.url | relative_url }}">Read more →</a></p>
-        </article>
-      {% endfor %}
-      {% if site.posts == empty %}
-        <p>No articles yet — add one in <code>_posts/</code>.</p>
-      {% endif %}
-    </main>
+   
 
     <!-- RIGHT SIDEBAR: Quick article links -->
     <aside class="em-right">
