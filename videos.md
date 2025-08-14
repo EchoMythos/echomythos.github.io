@@ -2,7 +2,7 @@
 title: Videos
 permalink: /videos/
 layout: none
-thumbnail: /assets/images/thumbnails/eternal-youth.jpg
+thumbnail: /assets/images/thumbnails/EternalYouth.jpg
 
 ---
 
