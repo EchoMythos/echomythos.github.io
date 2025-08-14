@@ -21,19 +21,7 @@ title: Echo Mythos
   }
 </style>
 
-<div class="page-wrap">
-  <div class="em-grid">
-    <!-- LEFT SIDEBAR: Videos -->
-    <aside class="em-left">
-      <h3>Videos</h3>
-      <ul>
-        {% assign vids = site.videos | sort: "date" | reverse %}
-        {% for v in vids %}
-          <li><a href="{{ v.url | relative_url }}">{{ v.title }}</a></li>
-        {% endfor %}
-        {% if site.videos == empty %}<li>No videos yet.</li>{% endif %}
-      </ul>
-    </aside>
+
 
     <!-- MAIN: Articles -->
     <main class="em-main">
