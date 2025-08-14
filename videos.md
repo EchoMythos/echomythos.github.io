@@ -3,7 +3,7 @@ title: Videos
 permalink: /videos/
 ---
 
-{% include header.html %}
+
 {% include banner.html %}
 
 # All Videos
