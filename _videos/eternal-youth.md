@@ -2,7 +2,7 @@
 layout: video
 title: "Eternal Youth"
 video_url: https://rumble.com/embed/v6v9vxy/?pub=4moov2
-thumbnail: /assets/images/thumbnails/EternalYouth.jpg
+thumbnail: /assets/images/EternalYouth.jpg
 excerpt: A cinematic meditation on inner radiance
 ---
 
