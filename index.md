@@ -20,20 +20,3 @@ title: Echo Mythos
     font-weight: 500;
   }
 </style>
-
-
-
-   
-
-    <!-- RIGHT SIDEBAR: Quick article links -->
-    <aside class="em-right">
-      <h3>Articles</h3>
-      <ul>
-        {% for post in site.posts %}
-          <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
-        {% endfor %}
-        {% if site.posts == empty %}<li>No articles yet.</li>{% endif %}
-      </ul>
-    </aside>
-  </div>
-</div>
