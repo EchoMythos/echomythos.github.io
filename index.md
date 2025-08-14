@@ -4,7 +4,7 @@ title: Echo Mythos
 ---
 
 <div class="tagline">
- ><br>
+ <br>
   Echo Mythos shares cinematic music and visual stories that transcend time and voice.
 </div>
 
