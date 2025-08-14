@@ -3,7 +3,7 @@ title: Articles
 permalink: /articles/
 ---
 
-{% include header.html %}
+
 {% include banner.html %}
 
 # All Articles
