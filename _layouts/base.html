@@ -9,10 +9,9 @@
   {% include banner.html %}
 
   <main class="em-grid" style="max-width: 1200px; margin: auto; padding: 2em 1em; display: grid; grid-template-columns: 1fr 2fr 1fr; gap: 2em;">
-    {% include sidebar.html %}
-    <div class="em-main">
-      {{ content }}
-    </div>
+    {% include left-sidebar.html %}
+    {{ content }}
+    {% include right-sidebar.html %}
   </main>
 </body>
 </html>
