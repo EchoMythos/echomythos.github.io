@@ -9,11 +9,14 @@ layout: none
 
 # All Videos
 
-<ul>
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 2em; padding: 2em 0;">
   {% for video in site.videos %}
-    <li style="margin-bottom: 1.5em;">
-      <a href="{{ video.url }}">{{ video.title }}</a><br>
-      <span style="color:#666; font-size:0.95em;">{{ video.excerpt }}</span>
-    </li>
+    <div style="width: 300px; text-align: center;">
+      <a href="{{ video.url }}">
+        <img src="{{ video.thumbnail }}" alt="{{ video.title }} thumbnail" style="width: 100%; height: auto; border-radius: 8px;" />
+      </a>
+      <h3 style="margin-top: 0.5em;"><a href="{{ video.url }}">{{ video.title }}</a></h3>
+      <p style="color: #666;">{{ video.excerpt }}</p>
+    </div>
   {% endfor %}
-</ul>
+</div>
