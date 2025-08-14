@@ -2,6 +2,8 @@
 title: Videos
 permalink: /videos/
 layout: none
+thumbnail: /assets/images/thumbnails/eternal-youth.png
+
 ---
 
 {% include header.html %}
