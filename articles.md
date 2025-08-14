@@ -1,8 +1,10 @@
 ---
-layout: default_with_sidebar
 title: Articles
 permalink: /articles/
 ---
+
+{% include header.html %}
+{% include banner.html %}
 
 # All Articles
 <ul>
