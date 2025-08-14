@@ -1,10 +1,10 @@
 ---
-layout: post
+layout: video
 title: "Eternal Youth"
-date: 2025-08-11
-tags: [video]
+video_url: https://rumble.com/embed/v6v9vxy/?pub=4moov2
+excerpt: A cinematic meditation on inner radiance
+permalink: /videos/eternal-youth/
 ---
 
-<div class="video-wrap">
-  <iframe src="(https://rumble.com/embed/v6v9vxy/?pub=4moov2)" allowfullscreen></iframe>
-</div>
+This video explores the inner light and ageless beauty of the soul, 
+blending visual storytelling with harmonic resonance.
