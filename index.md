@@ -17,6 +17,6 @@ title: Echo Mythos
   }
   .tagline em {
     font-style: italic;
-    font-weight: 500;
+    font-weight: 300;
   }
 </style>
