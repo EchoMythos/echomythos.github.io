@@ -1,6 +1,6 @@
 ---
 title: "Truth Is a Lens"
-thumbnail: /assets/images/thumbnails/Truth.png
+thumbnail: /assets/images/Truth.png
 ---
 
 ***Opinions, Beliefs, and the Illusion of Perfection***
