@@ -1,5 +1,5 @@
 ---
-layout: default_with_sidebar
+layout: post_with_nav
 title: Videos
 permalink: /videos/
 ---
