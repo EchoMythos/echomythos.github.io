@@ -1,0 +1,11 @@
+<!-- RIGHT SIDEBAR: Articles -->
+<aside class="em-right">
+  <h3>Articles</h3>
+  <ul>
+    {% assign posts = site.posts | sort: "date" | reverse %}
+    {% for post in posts %}
+      <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+    {% endfor %}
+    {% if site.posts == empty %}<li>No articles yet.</li>{% endif %}
+  </ul>
+</aside>
