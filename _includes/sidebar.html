@@ -1,13 +1,30 @@
-<aside style="width: 260px; padding: 12px;">
-  <h3 style="margin:0 0 10px;">Videos</h3>
-  <ul style="list-style:none; padding:0; margin:0;">
-    {% assign vids = site.videos | sort: "date" | reverse %}
-    {% for v in vids %}
-      <li style="margin-bottom:8px;">
-        <a href="{{ v.url }}">{{ v.title }}</a>
-      </li>
-    {% endfor %}
-    <li><a href="/videos/">Videos</a></li>
+<div class="em-grid">
+  <!-- LEFT SIDEBAR: Videos -->
+  <aside class="em-left">
+    <h3>Videos</h3>
+    <ul>
+      {% assign vids = site.videos | sort: "date" | reverse %}
+      {% for v in vids %}
+        <li><a href="{{ v.url | relative_url }}">{{ v.title }}</a></li>
+      {% endfor %}
+      {% if site.videos == empty %}
+        <li>No videos yet.</li>
+      {% endif %}
+    </ul>
+  </aside>
 
-  </ul>
-</aside>
+  <!-- MAIN CONTENT WILL GO HERE -->
+
+  <!-- RIGHT SIDEBAR: Articles -->
+  <aside class="em-right">
+    <h3>Articles</h3>
+    <ul>
+      {% for post in site.posts %}
+        <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+      {% endfor %}
+      {% if site.posts == empty %}
+        <li>No articles yet.</li>
+      {% endif %}
+    </ul>
+  </aside>
+</div>
