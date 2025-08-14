@@ -1,20 +1,50 @@
-<!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+--- _includes/header.html ---
+<nav>
+  <ul style="list-style: none; display: flex; justify-content: center; gap: 2em; padding: 1em;">
+    <li><a href="/">Home</a></li>
+    <li><a href="/articles/">Articles</a></li>
+    <li><a href="/videos/">Videos</a></li>
+    <li><a href="/poets-corner/">Poet’s Corner</a></li>
+    <li><a href="/whats-new/">What’s New</a></li>
+  </ul>
+</nav>
 
-  {%- include head.html -%}
-
-  <body>
-
-    {%- include header.html -%}
-
-<div class="site-banner" style="text-align:center; margin-bottom: 20px;">
-  <img src="/assets/images/Banner.png" 
-       alt="Echo Mythos Banner" 
-       style="width: 100%; height: auto; display: block;">
+--- _includes/banner.html ---
+<div style="text-align: center; padding: 1em 0;">
+  <img src="/assets/images/Banner.png" alt="Echo Mythos Banner" style="max-width: 100%; height: auto;">
 </div>
 
+--- _layouts/base.html ---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }}</title>
+</head>
+<body>
+  {% include header.html %}
+  {% include banner.html %}
 
+  <main style="max-width: 900px; margin: auto; padding: 2em 1em;">
+    {{ content }}
+  </main>
+</body>
+</html>
 
+--- index.md ---
+---
+layout: base
+title: Echo Mythos - Home
+---
+
+# Welcome to Echo Mythos
+
+Explore articles, videos, poetry, and more.
+
+[Go to Articles](/articles/)  
+[Go to Videos](/videos/)  
+[Visit Poet’s Corner](/poets-corner/)  
+[See What’s New](/whats-new/)
 
 
 
