@@ -4,10 +4,7 @@ baseurl: ""
 url: "https://echomythos.github.io"
 theme: minima
 
-header_pages:
-  - index.md
-  - videos.md
-  - articles.md
+
 
 collections:
   videos:
