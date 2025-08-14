@@ -1,13 +1,18 @@
 ---
-layout: post_with_nav
 title: Videos
 permalink: /videos/
 ---
 
-# Videos
+{% include header.html %}
+{% include banner.html %}
+
+# All Videos
+
 <ul>
-  {% assign vids = site.videos | sort: "date" | reverse %}
-  {% for v in vids %}
-    <li><a href="{{ v.url }}">{{ v.title }}</a></li>
+  {% for video in site.videos %}
+    <li style="margin-bottom: 1.5em;">
+      <a href="{{ video.url }}">{{ video.title }}</a><br>
+      <span style="color:#666; font-size:0.95em;">{{ video.excerpt }}</span>
+    </li>
   {% endfor %}
 </ul>
