@@ -10,10 +10,13 @@ collections:
   videos:
     output: true
     permalink: /videos/:name/
+ poets:
+    output: true
+    permalink: /poets/:name/
 
 include:
   - _videos
-
+  - _poets
 defaults:
   - scope:
       path: ""
@@ -27,3 +30,9 @@ defaults:
     values:
       layout: video   # ← your clean layout
 
+
+- scope:
+      path: "_poets"
+      type: poets
+    values:
+      layout: post_with_nav
