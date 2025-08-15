@@ -1,22 +1,21 @@
 title: Echo Mythos
 description: Unseen Origins, Infinite Reflections
 baseurl: ""
-url: "https://echom-ythos.com"
+url: "https://echo-mythos.com"
 theme: minima
-
-
 
 collections:
   videos:
     output: true
     permalink: /videos/:name/
- poets:
+  poets:
     output: true
     permalink: /poets/:name/
 
 include:
   - _videos
   - _poets
+
 defaults:
   - scope:
       path: ""
@@ -28,7 +27,13 @@ defaults:
       path: "_videos"
       type: videos
     values:
-      layout: video   # ← your clean layout
+      layout: video
+
+  - scope:
+      path: "_poets"
+      type: poets
+    values:
+      layout: post_with_nav
 
 
 - scope:
